@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  server:
+    build: .
+    image: buyanse/fiber-transaction:latest
+    container_name: server_test
+    ports:
+      - "9000:9000"
